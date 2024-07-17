@@ -1,0 +1,46 @@
+*{
+  font-family: cursive;
+}
+
+
+.inside-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+.container{
+  margin-top: 20px;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  min-width:1000px;
+  padding: 10px 40px;
+  align-content: left;
+}
+
+
+.row{
+  height: 4rem;
+  width: 70rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col input{
+  padding: 5px 25px;
+  text-align: left;
+}
+
+.col button{
+  padding: 6px 40px;
+}
